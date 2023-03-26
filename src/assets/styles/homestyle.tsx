@@ -15,8 +15,23 @@ text-align: center;
 font-size: 20px;
 `
 
+const Btn = styled.button`
+background-color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
 export default {
     HomeStyle,
     HomeTitleStyle,
-    HomeTextStyle
+    HomeTextStyle,
+    Btn
 }

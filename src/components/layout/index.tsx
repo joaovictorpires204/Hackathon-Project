@@ -1,5 +1,6 @@
 import S from '../../assets/styles/layoutstyle'
 import Logo from '../../assets/images/logo-2.jpg'
+import Piano from '../../assets/images/piano.png'
 import { Link, Outlet } from 'react-router-dom'
 
 export const Layout = () => {
@@ -17,6 +18,8 @@ export const Layout = () => {
             </S.MenuStyle>
 
             <Outlet  />
+
+            <S.PianoImg src={Piano} alt="" />
         </S.LayoutStyle>
     )
 }

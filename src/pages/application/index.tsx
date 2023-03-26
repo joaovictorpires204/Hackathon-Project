@@ -1,5 +1,5 @@
 import ClassifyAtom from '../../assets/images/CLASSIFY.png'
-import S from '../../assets/styles/aplicationstyle'
+import S from '../../assets/styles/applicationstyle'
 import One from '../../assets/images/1.png'
 import Two from '../../assets/images/2.png'
 import Three from '../../assets/images/3.png'

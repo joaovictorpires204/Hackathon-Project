@@ -34,10 +34,15 @@ text-decoration: none;
 }
 `
 
+const PianoImg = styled.img`
+    width: 100%;
+`
+
 export default {
     LayoutStyle,
     MenuStyle,
     LogoStyle,
     OptionsStyle,
-    OptionStyle
+    OptionStyle,
+    PianoImg
 }
